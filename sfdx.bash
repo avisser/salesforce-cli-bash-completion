@@ -1,4 +1,4 @@
--#!/usr/bin/env bash
+#!/usr/bin/env bash
 
 # DESCRIPTION: Bash completion script for the Salesforce CLI
 # AUTHOR: Wade Wegner (@WadeWegner)
@@ -141,6 +141,13 @@ _sfdx()
         force:user:permset:assign \ 
         force:visualforce:component:create \ 
         force:visualforce:page:create \ 
+        fonteva:sfpm:install \
+        fonteva:build:devorg \
+        fonteva:fls:run \
+        fonteva:install:dependencies \
+        fonteva:layouts:apply \
+        fonteva:deploy \
+        fonteva:push \
         plugins:install \ 
         plugins:link \ 
         plugins:install \ 
